@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jun  4 08:55:23 2023
+# Process ID: 782
+# Current directory: /home/ichiro/work/vitis_2023_1_crash_sample_1
+# Command line: vivado -mode batch -source implementation.tcl
+# Log file: /home/ichiro/work/vitis_2023_1_crash_sample_1/vivado.log
+# Journal file: /home/ichiro/work/vitis_2023_1_crash_sample_1/vivado.jou
+# Running On: Jabberwock, OS: Linux, CPU Frequency: 3600.000 MHz, CPU Physical cores: 1, Host memory: 34193 MB
+#-----------------------------------------------------------
+source implementation.tcl
+# set project_directory       [file dirname [info script]]
+# set project_name            "kv260_sample_platform"
+# if {[info exists project_name     ] == 0} {
+#     set project_name        "project"
+# }
+# if {[info exists project_directory] == 0} {
+#     set project_directory   [pwd]
+# }
+# open_project [file join $project_directory $project_name]
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/ichiro/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 21286 ; free virtual = 119776
+# launch_runs synth_1 -job 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.

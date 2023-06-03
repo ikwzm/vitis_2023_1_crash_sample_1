@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jun  4 08:55:23 2023
+# Process ID: 782
+# Current directory: /home/ichiro/work/vitis_2023_1_crash_sample_1
+# Command line: vivado -mode batch -source implementation.tcl
+# Log file: /home/ichiro/work/vitis_2023_1_crash_sample_1/vivado.log
+# Journal file: /home/ichiro/work/vitis_2023_1_crash_sample_1/vivado.jou
+# Running On: Jabberwock, OS: Linux, CPU Frequency: 3600.000 MHz, CPU Physical cores: 1, Host memory: 34193 MB
+#-----------------------------------------------------------
+source implementation.tcl
