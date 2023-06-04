@@ -1,6 +1,26 @@
 AMD Vitis 2023.1 Crash Sample 1
 =====================================================================
 
+### Environment
+
+#### WSL
+
+```console
+PS C:\Users\xxxx> wsl --version
+WSL バージョン: 1.2.5.0
+カーネル バージョン: 5.15.90.1
+WSLg バージョン: 1.0.51
+MSRDC バージョン: 1.2.3770
+Direct3D バージョン: 1.608.2-61064218
+DXCore バージョン: 10.0.25131.1002-220531-1700.rs-onecore-base2-hyp
+Windows バージョン: 10.0.19045.2965
+PS C:\Users\xxxx> wsl -l -v
+  NAME      STATE           VERSION
+* Ubuntu    Running         1
+```
+
+#### AMD Vivado 2023.1
+
 ```console
 shell$ vivado -version
 vivado v2023.1 (64-bit)
@@ -12,9 +32,20 @@ Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ```
 
+### Build and Crash
+
+#### Create Project
+
 ```console
 shell$ vivado -mode batch -source create_project.tcl -log create_project.log
 ```
+or
+
+```
+Vivado > Tools > Run Tcl Script... > create_project.tcl
+```
+
+#### Implementation
 
 ```console
 shell$ vivado -mode batch -source implementation.tcl 
@@ -48,3 +79,4 @@ realloc(): invalid pointer
 Abnormal program termination (6)
 Please check '/home/ichiro/work/vitis_2023_1_crash_sample_1/hs_err_pid782.log' for details
 ```
+
